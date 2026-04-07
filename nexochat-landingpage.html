@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NexoChat | Omnichannel Messaging CRM</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {font-family: 'Inter', sans-serif;}
+
+    .gradient-bg{
+      background: radial-gradient(circle at top, #1e3a8a, #020617);
+    }
+
+    .glass{
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .feature-card:hover{
+      transform: translateY(-6px);
+      transition: 0.25s;
+    }
+
+  </style>
+</head>
+
+<body class="bg-slate-950 text-white">
+
+<!-- NAVBAR -->
+<header class="fixed w-full top-0 z-50 glass">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+    <div class="text-2xl font-semibold tracking-tight">
+      NexoChat
+    </div>
+
+    <nav class="hidden md:flex gap-8 text-sm text-slate-300">
+      <a href="#features" class="hover:text-white">Features</a>
+      <a href="#platforms" class="hover:text-white">Platforms</a>
+      <a href="#contact" class="hover:text-white">Contact</a>
+    </nav>
+
+    <a href="#contact" class="bg-blue-600 hover:bg-blue-500 px-5 py-2 rounded-lg text-sm">
+      Request Demo
+    </a>
+
+  </div>
+</header>
+
+
+<!-- HERO -->
+<section class="gradient-bg pt-40 pb-32 px-6 text-center">
+
+  <div class="max-w-5xl mx-auto">
+
+    <h1 class="text-5xl md:text-6xl font-semibold leading-tight mb-8">
+      One Inbox for <br/> Every Customer Message
+    </h1>
+
+    <p class="text-xl text-slate-300 max-w-2xl mx-auto mb-10">
+      Manage conversations from WhatsApp, Instagram, X, Telegram and SMS inside one powerful messaging CRM built for modern teams.
+    </p>
+
+    <div class="flex justify-center gap-4">
+
+      <a href="#contact" class="bg-blue-600 hover:bg-blue-500 px-8 py-4 rounded-xl text-lg font-medium">
+        Get Early Access
+      </a>
+
+      <a href="#features" class="border border-slate-600 hover:border-white px-8 py-4 rounded-xl text-lg">
+        Learn More
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SOCIAL PROOF -->
+<section class="py-16 border-t border-slate-800 text-center">
+
+  <p class="text-slate-400 mb-6">Connect all major messaging platforms</p>
+
+  <div id="platforms" class="flex flex-wrap justify-center gap-6 text-lg text-slate-300">
+
+    <div class="glass px-6 py-3 rounded-lg">WhatsApp</div>
+    <div class="glass px-6 py-3 rounded-lg">Instagram</div>
+    <div class="glass px-6 py-3 rounded-lg">X</div>
+    <div class="glass px-6 py-3 rounded-lg">Telegram</div>
+    <div class="glass px-6 py-3 rounded-lg">SMS</div>
+
+  </div>
+
+</section>
+
+
+<!-- FEATURES -->
+<section id="features" class="max-w-7xl mx-auto px-6 py-28">
+
+  <div class="text-center mb-20">
+
+    <h2 class="text-4xl font-semibold mb-6">
+      Built for Modern Customer Communication
+    </h2>
+
+    <p class="text-slate-400 max-w-2xl mx-auto">
+      NexoChat helps businesses manage customer conversations across multiple platforms from one simple interface.
+    </p>
+
+  </div>
+
+
+  <div class="grid md:grid-cols-3 gap-10">
+
+
+    <div class="glass p-8 rounded-2xl feature-card">
+      <h3 class="text-xl font-semibold mb-4">Unified Inbox</h3>
+      <p class="text-slate-400">
+        See all customer conversations from different messaging platforms in one centralized inbox.
+      </p>
+    </div>
+
+
+    <div class="glass p-8 rounded-2xl feature-card">
+      <h3 class="text-xl font-semibold mb-4">Team Collaboration</h3>
+      <p class="text-slate-400">
+        Assign conversations to agents, add internal notes, and collaborate with your support team.
+      </p>
+    </div>
+
+
+    <div class="glass p-8 rounded-2xl feature-card">
+      <h3 class="text-xl font-semibold mb-4">Customer Profiles</h3>
+      <p class="text-slate-400">
+        Track every customer interaction with detailed profiles and conversation history.
+      </p>
+    </div>
+
+
+    <div class="glass p-8 rounded-2xl feature-card">
+      <h3 class="text-xl font-semibold mb-4">Automation</h3>
+      <p class="text-slate-400">
+        Set up auto replies, routing rules, and chatbot workflows to save time.
+      </p>
+    </div>
+
+
+    <div class="glass p-8 rounded-2xl feature-card">
+      <h3 class="text-xl font-semibold mb-4">Analytics</h3>
+      <p class="text-slate-400">
+        Understand response times, team productivity and customer engagement.
+      </p>
+    </div>
+
+
+    <div class="glass p-8 rounded-2xl feature-card">
+      <h3 class="text-xl font-semibold mb-4">Developer Friendly</h3>
+      <p class="text-slate-400">
+        Powerful APIs and webhooks allow deep integration with your systems.
+      </p>
+    </div>
+
+
+  </div>
+
+</section>
+
+
+<!-- PRODUCT PREVIEW -->
+<section class="py-28 px-6 border-t border-slate-800">
+
+  <div class="max-w-6xl mx-auto text-center">
+
+    <h2 class="text-4xl font-semibold mb-8">
+      A Clean Workspace for Your Support Team
+    </h2>
+
+    <p class="text-slate-400 max-w-xl mx-auto mb-16">
+      Your team can manage every message from one dashboard instead of switching between multiple apps.
+    </p>
+
+
+    <div class="glass rounded-2xl p-10 text-left max-w-4xl mx-auto">
+
+      <p class="text-slate-400 mb-4">Example Conversation View</p>
+
+      <div class="space-y-3">
+
+        <div class="bg-slate-800 p-4 rounded-lg">Customer (WhatsApp): Hi, I need help with my order.</div>
+
+        <div class="bg-blue-600 p-4 rounded-lg w-fit ml-auto">Agent: Sure! Can you share your order ID?</div>
+
+        <div class="bg-slate-800 p-4 rounded-lg">Customer: Order #2045</div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CTA -->
+<section id="contact" class="py-28 px-6 text-center gradient-bg">
+
+  <h2 class="text-4xl font-semibold mb-6">
+    Start Managing Customer Conversations Smarter
+  </h2>
+
+  <p class="text-slate-300 mb-10">
+    Join early adopters building better customer experiences with NexoChat.
+  </p>
+
+
+  <a href="mailto:contact@nexochat.app" class="bg-white text-black px-10 py-4 rounded-xl text-lg font-medium">
+    Request Early Access
+  </a>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="border-t border-slate-800 py-10 px-6">
+
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+
+    <div class="text-slate-400">
+      © 2026 NexoChat. All rights reserved.
+    </div>
+
+    <div class="flex gap-6 text-slate-400">
+      <a href="https://davidlazer18.github.io/nexochat-legal/privacy.html">Privacy Policy</a>
+      <a href="https://davidlazer18.github.io/nexochat-legal/terms.html">Terms</a>
+    </div>
+
+  </div>
+
+</footer>
+
+
+</body>
+</html>
